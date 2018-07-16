@@ -6,8 +6,8 @@ bot.on("ready", function() {
     bot.user.setGame("LesLoup, <help");
     console.log("Le bot a bien ete connecte");
     
-bot.on("message"), function (message);
-    if_(message.content === "<ping");
+bot.on("message"), function (message) {
+    if_(message.content === "<ping") }
         message.channel.send("pong")
 })
 

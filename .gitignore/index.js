@@ -8,7 +8,8 @@ bot.on("ready", function() {
   
 bot.on("message"), function (message) {
     if_(message.content === "<ping") {
-        message.reply("pong")
-});
+        message.channel.send("pong")
+    }
+})
 
 bot.login("NDY4MDcxNjg4NjY4NDQ2NzQw.Diz1Qg.82Sw_tI05Y9ZeZmiLd-I29SamfQ");
